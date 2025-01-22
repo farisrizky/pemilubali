@@ -111,13 +111,15 @@
                 },
                 scales: {
                     x: {
-                        stacked: true // Mengaktifkan stack pada sumbu X
+                        stacked: true, // Mengaktifkan stack pada sumbu X
+                        beginAtZero: true
                     },
                     y: {
-                        stacked: true, // Mengaktifkan stack pada sumbu Y
-                        beginAtZero: true
+                        stacked: true // Mengaktifkan stack pada sumbu Y
+                        
                     }
-                }
+                },
+                    indexAxis: 'y',
             }
         });
     </script>
